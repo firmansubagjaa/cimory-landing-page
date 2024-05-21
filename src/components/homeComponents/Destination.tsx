@@ -44,7 +44,7 @@ export default function Destination() {
                 <button className="h-12 w-full bg-[#FBC700] font-bold text-black/70 rounded-full text-white">
                   Beli Tiket
                 </button>
-                <button className="h-12 w-full font-bold ">Beli Tiket</button>
+                <button className="h-12 w-full font-bold ">Lebih Lanjut</button>
               </div>
             </div>
           ))}

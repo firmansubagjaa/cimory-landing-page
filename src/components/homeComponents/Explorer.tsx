@@ -5,7 +5,7 @@ import { backgroundSection4 } from "../img";
 
 export default function Explorer() {
   return (
-    <section className="relative py-32">
+    <section className="relative py-16 lg:py-32">
       <div className="bg-[#4A2C87] hidden lg:block h-full w-full lg:w-[55vw] absolute inset-0 lg:rounded-r-3xl -z-[1]">
         <div className="h-full relative top-[34rem] lg:top-[32rem]">
           <Image

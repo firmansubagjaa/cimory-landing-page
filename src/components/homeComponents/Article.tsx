@@ -5,13 +5,16 @@ import { backgroundSection2, imgArticle } from "../img";
 
 export default function Article() {
   return (
-    <section className="lg:py-32 relative">
+    <section className="lg:pb-32 relative">
       <Container>
         <div className="grid lg:grid-cols-2">
-          <div className="col-span-1 relative top-32 w-full">
+          <div className="col-span-1 space-y-5 relative top-32 w-full">
             <h3 className="text-3xl font-bold">
               Artikel Baru Dailyland & Minimania
             </h3>
+            <button className="h-12 px-4 bg-[#FBC700] font-bold text-black/70 rounded-full ">
+              Lihat Selengkapnya
+            </button>
           </div>
           <div className="col-span-1 mt-28">
             <div className="flex flex-wrap gap-5 justify-center lg:justify-between py-10">
