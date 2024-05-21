@@ -18,7 +18,7 @@ export default function Benefits() {
               Sini
             </h4>
           </div>
-          <div className="col-span-2">
+          <div className="col-span-2 pt-10">
             <figure className="flex justify-end gap-4">
               {benefits.map((item) => (
                 <Image

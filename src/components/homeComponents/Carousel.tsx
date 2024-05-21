@@ -5,7 +5,7 @@ import { banner1 } from "../img";
 
 export default function Carousel() {
   return (
-    <section className="pt-32 py-16 bg-[#4A2C87]">
+    <section className="pt-40 lg:pt-32 py-16 bg-[#4A2C87]">
       <Container>
         <div className="rounded-3xl">
           <Image

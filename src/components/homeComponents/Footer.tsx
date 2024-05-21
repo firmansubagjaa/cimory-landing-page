@@ -5,10 +5,10 @@ import Container from "../layout/layout";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#D9D9D9] h-[25rem] absolute inset-0 top-28 -z-10">
+    <footer className="bg-[#D9D9D9] h-full -z-10 py-16 ">
       <Container>
-        <div className="grid grid-cols-4 mt-36">
-          <div>
+        <div className="grid lg:grid-cols-4 lg:mt-36 space-y-16 lg:space-y-0">
+          <div className="flex justify-center">
             <Image
               src={cimoryLogo}
               alt="Cimory Logo"

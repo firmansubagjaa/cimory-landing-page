@@ -5,16 +5,16 @@ import { backgroundSection2, imgArticle } from "../img";
 
 export default function Article() {
   return (
-    <section className="py-32 relative">
+    <section className="lg:py-32 relative">
       <Container>
         <div className="grid lg:grid-cols-2">
-          <div className="col-span-1 relative top-32 w-96">
+          <div className="col-span-1 relative top-32 w-full">
             <h3 className="text-3xl font-bold">
               Artikel Baru Dailyland & Minimania
             </h3>
           </div>
-          <div className="col-span-1">
-            <div className="flex flex-wrap gap-5 justify-between py-10">
+          <div className="col-span-1 mt-28">
+            <div className="flex flex-wrap gap-5 justify-center lg:justify-between py-10">
               {imgArticle.map((item) => (
                 <div
                   key={item.id}

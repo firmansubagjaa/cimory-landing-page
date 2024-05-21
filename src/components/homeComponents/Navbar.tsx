@@ -9,7 +9,7 @@ export default function Navbar() {
     <header className="fixed top-0 z-[5] w-full bg-[#4A2C87] text-white py-4">
       <Container>
         <div className="flex items-center justify-between">
-          <ul className="flex gap-4">
+          <ul className="hidden lg:flex gap-4">
             {nav1.map((item) => (
               <li key={item.id}>{item.name}</li>
             ))}
@@ -22,11 +22,19 @@ export default function Navbar() {
               height={200}
             />
           </div>
-          <ul className="flex gap-4">
+          <ul className="hidden lg:flex gap-4">
             {nav2.map((item) => (
               <li key={item.id}>{item.name}</li>
             ))}
           </ul>
+          {/* hamburger */}
+          <div className="lg:hidden flex">
+            <div className="w-10 h-10 flex flex-col justify-around">
+              <div className="w-full h-1 bg-white" />
+              <div className="w-full h-1 bg-white" />
+              <div className="w-full h-1 bg-white" />
+            </div>
+          </div>
         </div>
       </Container>
     </header>

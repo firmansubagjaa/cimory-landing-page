@@ -17,7 +17,7 @@ export default function Home() {
       <Destination />
       <Explorer />
       <Article />
-      <div className="relative">
+      <div className="relative mt-32">
         <Offering />
         <Footer />
       </div>
